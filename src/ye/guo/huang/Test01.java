@@ -8,5 +8,16 @@ public class Test01 {
 		System.out.println(EnumSeasons3.FALL.getName());
 		System.out.println(EnumSeasons3.FALL.getCode());
 		System.out.println(EnumSeasons3.FALL);
+		
+		methodTest(EnumSeasons3.FALL);
 	}
+	
+	private static void methodTest(EnumSeasons3 enums){
+		System.out.println("-------------------------------------------");
+		System.out.println(enums);
+		System.out.println(enums.getCode());
+		System.out.println(enums.getName());
+	}
+	
+	
 }
